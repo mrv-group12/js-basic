@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="POST">
+            
+            <p>
+                <label>
+                    Потребителско име
+                    <input type="text" name="username" required placeholder="въведи потребителско име">
+                </label>
+            </p>
+            
+            <label for="first-name">Лично име</label>
+            <input type="text" name="lichno-ime" required id="first-name"><br><br>
+            <label for="user-email">E-mail</label>
+            <input type="email" name="email" id="user-email">
+            <p>
+                <label for="age">Възраст</label>
+                <input type="number" name="user-age" id="age" max="119" min="18">
+            </p>
+            <p>
+                <label for="date">ДАТА</label>
+                <input type="date" name="user-data" id="date" >
+            </p>
+            <p>
+                <label for="pass">Парола</label>
+                <input type="password" name="user-pasword" id="pass" >
+            </p>
+            <p>
+                <textarea rows="10" cols="50">TEXT</textarea>
+                    
+            </p>
+            
+            <select>
+                <optgroup label="Цифри">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </optgroup>
+                <optgroup label="Цифри словом">
+                    <option value="4">Четири</option>
+                    <option value="5">Пет</option>
+                </optgroup>
+            </select>
+            
+            
+            
+            <p>
+                <input type="submit" value="Изпрати">
+            </p>
+        </form>
+    </body>
+</html>

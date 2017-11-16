@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Приложение 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header-title">Приложение 1</div>
+            <nav>
+                <ul class="main-menu-elements">
+                    <li><a href="#home">Начало</a></li>
+                    <li>
+                        <a href="#description">Описание</a>
+                        <ul class="submenu">
+                            <li><a href="#description">Submenu1</a></li>
+                            <li><a href="#description">Submenu2</a>
+                                <ul class="subsub">
+                                    <li><a href="#home">Sub sub 1</a></li>
+                                    <li><a href="#home">Sub sub 2</a></li>
+                                    <li><a href="#home">Sub sub 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#description">Submenu3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#data">Данни</a></li>
+                    <li><a href="#action">Действие</a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <div id="home" class="main-image">
+            <h1>Приложение за похвали и съвети </br>
+                <span class="h1-smaller">(само похвали, моля без оплаквания)</span>
+            </h1>
+            <a class="like-a-button" href="#description">Виж повече</a>
+        </div>
+        <div  class="main-container">
+            <div class="features">
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <i class="fa fa-fighter-jet" aria-hidden="true"></i>
+                        </div>
+                        <h2>Бързо</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis nulla eget commodo. Nam sit amet consectetur tortor. Morbi sem nisl, imperdiet eu felis ac, fermentum lacinia eros.</p>
+                    </li>
+                     <li>
+                         <div class="icon">
+                             <i class="fa fa-coffee" aria-hidden="true"></i>
+                         </div>
+                        <h2>Лесно</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis nulla eget commodo. Nam sit amet consectetur tortor. Morbi sem nisl, imperdiet eu felis ac, fermentum lacinia eros.</p>
+                    </li>
+                     <li>
+                         <div class="icon">
+                             <i class="fa fa-eye" aria-hidden="true"></i>
+                         </div>
+                        <h2>Интуитивно</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis nulla eget commodo. Nam sit amet consectetur tortor. Morbi sem nisl, imperdiet eu felis ac, fermentum lacinia eros.</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="description" class="content">
+                <div class="main-content">
+                    <h2>Нямаме заглавие!</h2>
+                    <div class="separation"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis nulla eget commodo. Nam sit amet consectetur tortor. Morbi sem nisl, imperdiet eu felis ac, fermentum lacinia eros.</p>
+                    <img src="images/second-slide.jpg" alt="title-description" >
+                </div>
+                <div class="second-content">
+                    
+                    <div class="news-one">
+                        <div class="news-content">
+                            <h3>Планина</h3>
+                            <div class="separation"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis nulla eget commodo.</p>
+                            <button>Виж още</button>
+                        </div>
+                        <div class="news-image">
+                            TEADSDGASDFADSF ASDFADSFASDFASDZF Sdf asfASDFASDF
+                            <!-- <img src="images/n1.jpg" alt="Title 1"> -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="news-two">
+                        <div class="news-content">
+                            <h3>Мечка</h3>
+                            <div class="separation"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis nulla eget commodo.</p>
+                            <button>Виж още</button>
+                        </div>
+                        <div class="news-image">
+                            <img src="images/n2.jpg" alt="Title 2">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div id="data" class="form-table">
+                <div class="form">
+                    <form>
+                        <p>
+                            <label>
+                                Име:</br>
+                                <input type="text" name="fullname" placeholder="Трите имена">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Имейл:</br>
+                                <input type="email" name="email" placeholder="Вашия имейл">
+                            </label>
+                        </p>
+                        <p>
+                            Похвала:</br>
+                            <textarea></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" name="submit" value="Изпрати">
+                        </p>
+                    </form>
+                </div>
+                <div class="table">
+                    <table border="0">
+                        <thead>
+                            <tr>
+                                <th>Име</th>
+                                <th>Имейл</th>
+                                <th>Похвала</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Спас Василев</td>
+                                <td>spasspasow@spas.net</td>
+                                <td>Много яко</td>
+                            </tr>
+                            <tr>
+                                <td>Александър Николов</td>
+                                <td>a.nikolov@freetickets.bg</td>
+                                <td>Не работи!!! Оправете си формуляра!!! Не става!! Искам си парите!!!</td>
+                            </tr>
+                            <tr>
+                                <td>Валери Петров</td>
+                                <td>v.petrov@sbp.bg</td>
+                                <td>Не знам защо коментирам тук!</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <div id="action" class="action">
+                <h2>Бъди Активен, Оплачи се!</h2>
+                <div class="separation"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis nulla eget commodo. Nam sit amet consectetur tortor. Morbi sem nisl, imperdiet eu felis ac, fermentum lacinia eros.</p>
+                <button>Сподели болката!</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="copywrite">
+                    <p>
+                        Copywrite 2017 </br>
+                        <a href="#">Общи условия</a>
+                    </p>
+                </div>
+                <div class="link-info">
+                    <p><strong>Link 1</strong></p>
+                    <ul>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Portfoil</a></li>
+                    </ul>
+                </div>
+                <div class="link-info">
+                    <p><strong>Link 1</strong></p>
+                    <ul>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Portfoil</a></li>
+                    </ul>
+                </div>
+                <div class="link-info">
+                    <p><strong>Link 1</strong></p>
+                    <ul>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Portfoil</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

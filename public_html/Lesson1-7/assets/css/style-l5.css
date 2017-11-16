@@ -1,0 +1,84 @@
+.block{
+    border: 1px solid green;
+}
+.some-inline-block .block{
+    display:inline-block;
+}
+.some-float .blk-float{
+    float:left;
+}
+.some-float .blk-float-r{
+    float:right;
+}
+.bl1{
+   width:100px;
+   height:100px;
+}
+.bl2{
+   width:300px;
+   height:200px;
+}
+.bl3{
+   width:300px;
+   height:300px;
+}
+.bl4{
+   width:400px;
+   height:400px;
+}
+.clearfix{
+    clear:both;
+}
+.static-block{
+    margin:20px 30px 25px 25px;
+}
+.rel-block{
+    position:relative;
+    left:25px;
+    top:30px;
+}
+
+.abs-block {
+    position:absolute;
+    top:10px;
+    left:30px;
+}
+.fix-block{
+    position:fixed;
+    top:0;
+    left:0;
+}
+.nav-menu{
+    width: 100%;
+    height: 30px;
+    background: #ccc;
+    box-sizing: border-box;
+    z-index: 2;
+}
+section.first-section{
+    margin-top:40px;
+    position:relative;
+}
+
+.sticky-block{
+    position:sticky;
+    border: orange;
+    font-size: 30px;
+    z-index: 3;
+    left: 0;
+    top: 10px;
+}
+/*TABLE'S styles'*/
+table{
+    border-collapse: collapse;
+}
+td,
+th{
+    border:1px solid green;
+    width:100px;
+    padding:5px;
+}
+
+table tbody tr:nth-child(2n+1){
+    background-color:#ccc;
+}

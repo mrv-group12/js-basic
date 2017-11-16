@@ -1,0 +1,72 @@
+/* Komentar */
+body{
+    font-size:20px;
+    color:red;
+}
+.text-green{
+    color:green;
+}
+/*
+q::before {
+    content: "+";
+}
+q::after {
+    content: "+";
+}
+*/
+
+/* Bla Bla */
+.blue-text{
+    color:black;
+}
+
+ a{
+     color:green;
+ }
+ 
+ .ul-two {
+    list-style-type: square;
+}
+
+ .ul-one {
+    list-style: inside square;
+    border-left: 1px solid red;
+    list-style-type: circle;
+}
+
+ 
+
+#spec-link{
+    color:blue !important;
+}
+
+table#t01 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#t01 td, 
+#t01 th{
+    border: 1px solid green;
+    padding: 10px;
+}
+
+table tr:nth-child(3n){
+    background-color: yellow;
+}
+
+table tr:nth-child(2n){
+    background-color: orange;
+}
+
+.almost-god{
+    color:blue !important;
+}
+
+#t01 .merged-vertical {
+
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+
+}

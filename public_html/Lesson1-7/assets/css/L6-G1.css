@@ -1,0 +1,43 @@
+.background-block{
+
+}
+
+.clearfix{
+    clear:both;
+}
+
+.first-color{
+    background: red;
+    width: 50%;
+    height: 300px;
+    float:left;
+    overflow: scroll;
+}
+
+.second-color{
+    background: blue;
+    width: 50%;
+    height: 300px;
+    float:left;
+    overflow: scroll;
+}
+@media (max-width:800px){
+    .mid-screen{
+        font-size:25px;
+        color:#fff;
+    }
+}
+
+@media (max-width:500px){
+    .first-color,
+    .second-color{
+        width:100%;
+        float:none;
+        overflow: hidden;
+        height: auto;
+    }
+    .small-screen{
+        font-size:12px;
+        color:#fff;
+    }
+}

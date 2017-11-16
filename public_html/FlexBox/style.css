@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix{
+    clear:both;
+}
+
+.flex-container{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    height: 800px;
+}
+.flex-items{
+    background:greenyellow;
+    width:200px;
+    height:300px;
+    margin:30px;
+}
+
+.flex-items:nth-child(odd){
+    background-color:orange;
+    width:300px;
+    order:2;
+    flex-grow:3;
+}
+.flex-items:nth-child(2){
+    order:3;
+    flex-grow:2
+}

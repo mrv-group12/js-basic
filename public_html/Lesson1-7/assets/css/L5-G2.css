@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    content: '';
+}
+
+.block-border{
+    border:1px solid green;
+    box-sizing: border-box;
+}
+.blk1{
+    width: 10%;
+    height: 200px;
+}
+.blk2{
+    width: 200px;
+    height: 300px;
+}
+.blk3{
+    width: 300px;
+    height: 200px;
+}
+.blk4{
+    width: 200px;
+    height: 100px;
+}
+.block-center{
+   margin-left: 15%; 
+}
+.blk-uni{
+   width: 200px;
+   height: 200px;
+   margin: 40px;
+}
+.block-inline .block{
+    display:inline-block;
+}
+.abs-block{
+    position: absolute;
+}
+.small-block{
+    width: 50px;
+    height: 50px;
+    background:orange;
+}
+.very-small-block{
+    width: 20px;
+    height: 20px;
+    background:orangered;
+}
+.menu{
+    width:100%;
+    border: 2px solid purple;
+    height: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fef1f1;
+    z-index: 2;
+}
+
+.logo img {
+    width: 50px;
+}
+.float-right{
+    float:right;
+}
+.float-left{
+    float:left;
+}
+.menu-container {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.logo {
+    margin-left: 30px;
+}
+.sticky{
+    position:sticky;
+    background:pink;
+    top: 50px;
+    z-index: 2;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.floating .block{
+    float:left;
+}
+.floating .block.floating-r{
+    float:right;
+}
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.red-box{
+    width: 400px;
+    height: 500px;
+    background: red;
+}
+.clearfix{
+    clear:both;
+}
+
+.static-block{
+    
+}
+
+.relative-block{
+    position:relative;
+}
+
+/*HEADER*/
+
+/**/

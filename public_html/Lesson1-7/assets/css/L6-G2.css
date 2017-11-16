@@ -1,0 +1,51 @@
+
+.first-image{
+    background-image:url('../img/index.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    height: 200px;
+}
+
+p {
+    background: url('../img/bear.png') no-repeat 50% 50%;
+    color: white;
+    width: 50%;
+}
+
+.mobile-left{
+    float:left;
+    width:50%;
+    height: 300px;
+    background-color:red;
+}
+.mobile-right{
+    float:left;
+    width:50%;
+    height: 300px;
+    background-color:blue;
+}
+.clearfix{
+    clear:both;
+}
+
+@media only screen and (max-width:400px){
+    .mobile-right,
+    .mobile-left{
+        float:none;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px){
+    .mobile-right,
+    .mobile-left{
+        float:none;
+        width:80%;
+        margin:0 auto;
+        background:green;
+    }
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.our-red {
+    background-color: lightcoral !important;
+}

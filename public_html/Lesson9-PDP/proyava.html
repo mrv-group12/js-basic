@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ПДП</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!-- Заглавно меню -->
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Начало</a></li>
+                    <li><a href="#">Съобщения</a></li>
+                    <li><a href="#">Събития</a>
+                        <ul class="submenu">
+                            <li><a href="#">Събития 1</a></li>
+                            <li><a href="#">Събития 2</a></li>
+                            <li><a href="#">Събития 3</a>
+                                <ul class="subsubmenu">
+                                    <li><a href="#">Случка 1</a></li>
+                                    <li><a href="#">Случка 2</a></li>
+                                    <li><a href="#">Проявление 3</a></li>
+                                    <li><a href="#">Случка 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Събития 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ДПС</a></li>
+                    <li><a href="#">Бланки</a></li>
+                    <li><a href="#">Справки</a></li>
+                    <li><a href="#">Статистика</a></li>
+                </ul>
+            </nav>
+            <!-- Профилно меню -->
+            <nav class="profile-menu">
+                <ul>
+                    <li>
+                        <span class="profile-link">Профил</span>
+                        <ul class="submenu">
+                            <li><a href="#">Смяна на парола</a></li>
+                            <li><a href="#">Изход</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <div class="main-content">
+            <h1>Проява</h1>
+            <div class="personal-data box-borders">
+                <h2>Данни за лицето</h2>
+                <div class="profile-picture">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/69263/profile/profile-512.jpg?2" alt="Profile">
+                </div>
+                <div class="profile-info">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>ЕГН</th>
+                                <td>808080808080</td>
+                            </tr>
+                            <tr>
+                                <th>ИМЕ</th>
+                                <td>Спас Спасов Спасов</td>
+                            </tr>
+                            <tr>
+                                <th>Месторождение</th>
+                                <td>с. Долно на нагорнище</td>
+                            </tr>
+                            <tr>
+                                <th>Постоянен Адрес</th>
+                                <td>гр. София, ул Рила 6, 1202</td>
+                            </tr>
+                            <tr>
+                                <th>Настоящ адрес</th>
+                                <td>с.Мрамор, ул. Спортис 12</td>
+                            </tr>
+                            <tr>
+                                <th>Прякор</th>
+                                <td>ОпасниАт!</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="event-data box-borders">
+                <h2>Основни данни за събитието</h2>
+                <div class="input-raw input-count-three">
+                    <label><span>Системен номер:</span>
+                        <input type="text" name="">
+                    </label>
+                    <label><span>Роля на лицето:</span>
+                        <input type="text" name="">
+                    </label>
+                    <label><span>Дата на проява<span class="required">*</span></span>
+                        <input type="data" name="" required>
+                    </label>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="input-raw">
+                    <label>Вид проява:
+                        <input type="text" name="">
+                    </label>
+                </div>
+                <div class="input-raw">
+                    <label>Описание на проявата:<br>
+                        <textarea></textarea>
+                    </label>
+                </div>
+                 <div class="input-raw">
+                    <label>Koнкретно място:
+                        <input type="text" name="">
+                    </label>
+                </div>
+                <div class="input-raw">
+                    <label>Описание на мястото:<br>
+                        <textarea></textarea>
+                    </label>
+                </div>
+                <div class="input-raw">
+                    <label>Областна дирекция:
+                        <input type="text" name="">
+                    </label>
+                </div>
+            </div>
+            <div class="additional-data box-borders">
+                <div class="input-raw">
+                    <label><span class='select-label'>Съучастие:</span>
+                        <select name="">
+                            <option>---</option>
+                            <option>Съучастник</option>
+                            <option>Подстрекател</option>
+                            <option>Поръчител</option>
+                            <option>Самоинициативен тип</option>
+                        </select> 
+                    </label>
+                </div>
+                <div class="input-raw">
+                    <label><span class='select-label'>Мярка по НПК:</span>
+                        <select name="">
+                            <option>---</option>
+                            <option>Мярка 1</option>
+                            <option>Мярка 4</option>
+                            <option>Мярка 3</option>
+                            <option>Мярка 2</option>
+                        </select> 
+                    </label>
+                </div>
+                <div class="input-raw">
+                    <label>
+                        <input type="checkbox" value="Arested"> Полицейска регистрация
+                    </label></br>
+                    <label>
+                        <input type="checkbox" value="time_in_jail"> Задържан в поделение на МВР <br>
+                        <textarea>Обяснения...</textarea>
+                    </label>
+                </div>
+                <div class='gen-info'>
+                    <p><b>Влязла в сила присъда(Мерки по НК)</b></p>
+                    <ul>
+                        <li>
+                            <div class='img-icon pos-icon-one'></div>
+                            <div class="info">Mерки по ЗБППНМ:<br> 
+                                Предупреждение</div>
+                            <div class="clearfix"></div>
+                        </li>
+                        <li>
+                            <div class='img-icon pos-icon-two'></div>
+                            <div class="info">Mерки по ЗБППНМ:<br>
+                            Порицание</div>
+                            <div class="clearfix"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user-data box-borders">
+                <table border="0">
+                    <thead>
+                        <tr>
+                            <th style='width: 100px;'>Дата</th>
+                            <th style='width: 300px;'>Тип документ</th>
+                            <th style='width: 300px;'>Име на файл</th>
+                            <th style='width: 100px;'>Документ основание</th>
+                            <th style='width: 100px;'>Преглед</th>
+                            <th style='width: 100px;'>Изтрий</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10.10.2017 18:55</td>
+                            <td>Експерно решение</td>
+                            <td><i class="pdf-file"></i> reshenie.pdf</td>
+                            <td><i class="checked"></i></td>
+                            <td><a href='#'>виж</a></td>
+                            <td><i class="trash "></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
